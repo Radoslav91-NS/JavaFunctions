@@ -13,7 +13,7 @@ public class DomaciSreda {
         System.out.println("Ocenite uslugu naseg restorana od 1 - 10.");
         int usluga = s.nextInt();
         int prosek = (kvalitet + usluga) / 2;
-        if (kvalitet < 1 || kvalitet > 10 || usluga > 10 || usluga < 1) { // ovde treba nesto popraviti
+        if (kvalitet < 1 || kvalitet > 10 || usluga > 10 || usluga < 1) { 
             System.out.println("Podaci nisu validni");
         } else if (prosek >= 5) {
             System.out.println("Prosek je veci od 5");
